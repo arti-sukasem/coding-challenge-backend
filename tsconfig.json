@@ -7,8 +7,12 @@
     "rootDir": "src",
     "outDir": "dist",
     "sourceMap": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"]
+    }
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "src/server.test.ts"],
   "exclude": ["src/**/*.spec.*"]
 }

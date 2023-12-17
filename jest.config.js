@@ -4,6 +4,9 @@
  */
 
 module.exports = {
+  moduleNameMapper: {
+    axios: 'axios/dist/node/axios.cjs',
+},
   // All imported modules in your tests should be mocked automatically
   // automock: false,
 
